@@ -1,6 +1,6 @@
 class Person
-  def bark
-    puts "Woof!"
+  def talk
+    puts 
   end
 end
  
