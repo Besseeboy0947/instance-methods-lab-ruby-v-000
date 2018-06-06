@@ -4,11 +4,6 @@ class Person
   end
 end
  
-fido = Person.new
-fido.bark #> "Hello World!"
- 
-snoopy = Person.new
-snoopy.bark #> "The Person is walking"
 
 class Person
   def walk
