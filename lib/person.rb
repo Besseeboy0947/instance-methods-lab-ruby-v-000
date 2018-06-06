@@ -12,7 +12,7 @@ snoopy.bark #> "The Person is walking"
 
 class Person
   def walk
-    puts "The Person is walkings"
+    puts "The Person is walking"
   end
 end
  
