@@ -1,14 +1,14 @@
 class Person
   def talk
-    puts 
+    puts "Hello World!"
   end
 end
  
-fido = Dog.new
-fido.bark #> "Woof!"
+fido = Person.new
+fido.bark #> "Hello World!"
  
-snoopy = Dog.new
-snoopy.bark #> "Woof!"
+snoopy = Person.new
+snoopy.bark #> 
 
 class Dog
   def sit
