@@ -8,10 +8,10 @@ fido = Person.new
 fido.bark #> "Hello World!"
  
 snoopy = Person.new
-snoopy.bark #> 
+snoopy.bark #> "The Person is walking"
 
-class Dog
-  def sit
+class Person
+  def walk
     puts "The Dog is sitting"
   end
 end
